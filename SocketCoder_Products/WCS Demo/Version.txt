@@ -1,0 +1,33 @@
+3.0.1: (19/December/2012)
+- Better Voice Quality With adding RTP and Jitter Buffer
+- add MAC Voice configuration to work on All MAC OS that can run silverlight 5  
+-------------------------------------------------------
+3.0.0: (5/December/2012)
+
+- Completely New UI For the best view and use  
+- New Design for the Whiteboard and merge it with the Chatting Area 
+- Marge the Drawing Service With the WCS Main Services 
+-------------------------------------------------------
+2.5.0: (28/February/2012)
+
+- Supports Silverlight 5
+- Fix stability issues in the main service
+- Fix Webcam/Mic is required issue.
+
+--------------------------------------------------------
+WCS Pro Version 2.5.0 features
+--------------------------------------------------------
+- Full Silverlight In Browser Client application 
+- Multi Conferencing Rooms
+- Unlimited Video/Voice/Text Talkers on each room to unlimited listeners.
+- Online Presenter System
+- Files Sharing System 
+- The Whiteboard is based on the Silverdraw.Codeplex.com Project 
+and updated to support Multi-rooms, The Wiper and The Save button 
+- Video Image Quality Controller
+- Voice Chat With Speex Codec for better performance and quality
+- Text Chatting System
+- Supports Working on Windows and MAC OS
+- Suitable to Work on WAN/LAN Networks
+- The Full (Client/Server) Source Code is included
+- Unlimited Support Period to download the new versions and updates.
