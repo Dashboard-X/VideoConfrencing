@@ -1,0 +1,29 @@
+Silverlight Web Video/Voice Conferencing System: 
+ 
+
+  The Main Features:
+   - Full Silverlight InBrowser Client application 
+   - Multi Conferencing Rooms
+   - Up to 6 Video/Voice Talkers on each room to unlimited listeners
+   - Online Presenter System
+   - Text Chatting System
+   - Supports Working on Windows and MAC OS
+   - Suitable to Work on WAN/LAN Networks
+
+   The Optional Features:
+   - Unlimited number of Video/Voice Talkers (Optional)
+   - Remote Administration With Control Panel (Optional)
+   - Video/Voice Quality Controller (Optional)
+   - Rich Text Chatting (Optional)
+   - Files Sharing System (Optional)
+   - Shared White-Board (Optional)
+   - Secured Conferencing Sessions (Optional)
+   - Remote Desktop Assistance System (Optional)
+   - H.264 SIP Voice/Video Agent (Optional as windows tool)
+
+
+* We offer this product with the Full Source Code, Also it's available as a customized product for Companies, Academies and Developers.
+
+
+Test The Free Compiled Version:
+http://www.socketcoder.com/Products.aspx?index=1
