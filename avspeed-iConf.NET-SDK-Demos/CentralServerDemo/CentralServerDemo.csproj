@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E55D13D-8C13-4C1F-AAAA-FB252800A393}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CentralServerDemo</RootNamespace>
+    <AssemblyName>CentralServerDemo</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="iConfClient.NET">
+      <HintPath>..\_ReferencesX86\iConfClient.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="iConfServer.NET">
+      <HintPath>..\_ReferencesX86\iConfServer.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AudioDevsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AudioDevsForm.Designer.cs">
+      <DependentUpon>AudioDevsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientForm.Designer.cs">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactForm.Designer.cs">
+      <DependentUpon>ContactForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormPending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPending.Designer.cs">
+      <DependentUpon>FormPending.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChatForm.designer.cs">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person.cs" />
+    <Compile Include="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Viewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewer.Designer.cs">
+      <DependentUpon>Viewer.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AudioDevsForm.resx">
+      <DependentUpon>AudioDevsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactForm.resx">
+      <DependentUpon>ContactForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPending.resx">
+      <DependentUpon>FormPending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatForm.resx">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Viewer.resx">
+      <DependentUpon>Viewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrator_close_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrator_ok_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio_conference_config_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CameraDigital16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CameraWebCam16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Headphones-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mic16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webcam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chat Offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_sharing_ok_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Available.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewMessage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouse-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Online.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Offline1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
